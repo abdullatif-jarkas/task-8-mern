@@ -1,0 +1,8 @@
+.auth-question {
+  text-align: center;
+  margin-top: 24px;
+  a {
+    color: var(--main-color);
+    text-decoration: underline;
+  }
+}

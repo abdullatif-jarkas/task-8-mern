@@ -1,0 +1,14 @@
+.login {
+  background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px 10px;
+  .auth-form {
+    padding: 42px 30.06px 41px;
+    input[type="password"] {
+      margin-bottom: 30px;
+    }
+  }
+}

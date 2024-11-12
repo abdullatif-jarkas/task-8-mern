@@ -1,0 +1,15 @@
+.auth-button {
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  color: white;
+  font-size: var(--text-font-size);
+  font-weight: 500;
+  line-height: 17.07px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 0 13px 0;
+  border: 0;
+  cursor: pointer;
+}

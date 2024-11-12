@@ -1,0 +1,12 @@
+.title {
+  margin: 76px 0;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 73.14px;
+}
+
+@media screen and (width < 1440px) {
+  .title {
+    margin: 0;
+  }
+}

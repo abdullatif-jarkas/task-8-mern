@@ -1,0 +1,27 @@
+.auth-form {
+  border: 1px solid #E5E5E5;
+  box-shadow: 2px 5px 10px 0px #0000001A;
+  border-radius: 20px;
+  padding: 42px 21.04px 20px 30.06px;
+  background-color: #FFF;
+  width: 476px;
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+  .auth-header-text {
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    h1 {
+      font-size: 1.375rem;
+    }
+    p {
+      font-size: var(--text-font-size);
+      color: var(--secondary-text-color);
+    }
+  }
+}

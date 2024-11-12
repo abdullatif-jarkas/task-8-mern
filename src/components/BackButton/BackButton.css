@@ -1,0 +1,9 @@
+.back-button {
+  max-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 12px 15.06px;
+}

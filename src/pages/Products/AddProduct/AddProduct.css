@@ -1,0 +1,67 @@
+.add-product {
+  padding: 24px 109px 168px 64px;
+  flex-grow: 1;
+  form {
+    .main-fields{
+      display: flex;
+      gap: 34.13px;
+    }
+    label {
+      font-size: 2rem;
+      color: #6C6C6C;
+      line-height: 39.01px;
+      margin-bottom: 16px;
+    }
+    .text-fields {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+      .field {
+        display: flex;
+        flex-direction: column;
+        input {
+          height: 44px;
+          border-radius: 4px;
+          padding-left: 15px;
+          border: 1px solid #E5E5E5;
+        }
+      }
+    }
+    .img-col {
+      width: 54.865%;
+    }
+    .image-input-container {
+      border: 1px dashed #384EB74D;
+      border-radius: 4px;
+      height: 209px;
+      margin-top: 14px;
+      background: url('/images/upload-icon.png') no-repeat center center;
+      background-color: #F8F8FF;
+      input {
+        opacity: 0;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  input[type="submit"] {
+    width: 199px;
+    height: 61px;
+    border-radius: 4px;
+    font-size: 2rem;
+    font-weight: 500;
+    display: block;
+    margin: 120px auto 0;
+    background-color: var(--main-color);
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+}
+@media screen and (width < 1440px) {
+  .add-product {
+    padding: 25px;
+  }
+}

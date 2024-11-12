@@ -1,0 +1,54 @@
+.popup {
+    width: 65.83%;
+    height: 321px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 5px 10px 0px #0000001A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    z-index: 1000;
+    padding: 80px 30px;
+    background-color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    .delete-message {
+        font-size: 1.375;
+        font-weight: 600;
+        line-height: 26.82px;
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 19.95%;
+    }
+    .confirm, .cancel {
+        width: 199px;
+        height: 61px;
+        background-color: var(--main-color);
+        border: 0;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 39.01px;
+    }
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+

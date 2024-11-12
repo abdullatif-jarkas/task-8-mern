@@ -1,0 +1,20 @@
+.search-bar {
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 664px;
+  padding: 0 14px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  input {
+    background: url('/images/search.png') no-repeat right 0 bottom 12px;
+    border: 0;
+    max-width: 664px;
+    height: 40px;
+    flex-grow: 1;
+    outline: none;
+  }
+}

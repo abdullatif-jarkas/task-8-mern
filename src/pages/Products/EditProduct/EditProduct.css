@@ -1,0 +1,13 @@
+.add-product {
+  .image-input-container {
+    position: relative;
+    img {
+      position: absolute;
+      width: 208px;
+      height: 208px;
+      object-fit: cover;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

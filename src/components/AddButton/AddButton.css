@@ -1,0 +1,23 @@
+.add-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 48px 0 32px;
+  a {
+    width: 199px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (width < 1440px) {
+  .add-btn {
+    margin: 18px 0 18px;
+  }
+}

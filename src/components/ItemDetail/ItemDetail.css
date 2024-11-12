@@ -1,0 +1,13 @@
+.item-detail {
+  h5 {
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 73.14px;
+  }
+  span {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 48.76px;
+    color: #8080808C;
+  }
+}
